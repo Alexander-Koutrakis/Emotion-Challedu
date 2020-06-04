@@ -11,6 +11,7 @@ public class clique : MonoBehaviour
     public AudioClip sound3;
     public AudioClip sound4;
     public AudioClip sound5;
+    public AudioClip sound6;
     private AudioClip[] soundArray;
     public GameObject emoji;
     
@@ -51,17 +52,25 @@ public class clique : MonoBehaviour
     void OnMouseDown()
     {
         isclick = true;
-        
-        
+               
     }
 
     public void PlayRandomSound()
     {
-        AudioClip[] soundArray = { sound1, sound2, sound3, sound4, sound5 };
-        int rand = Random.Range(0, 5);
-        if(audioSrc.clip!=null)
-        audioSrc.PlayOneShot(soundArray[rand]);
-        isclick = false;
+        Debug.Log(choose_langages.CurrentLang);
+        if (choose_langages.CurrentLang == "gr" || choose_langages.CurrentLang == "en")
+        {
+            AudioClip[] soundArray = { sound1, sound2, sound3, sound4, sound5, sound6 };
+            int rand = Random.Range(0, 7);
+            if (audioSrc.clip != null)
+            audioSrc.PlayOneShot(soundArray[rand]);
+            isclick = false;
+        }
+        else {
+            audioSrc.PlayOneShot(sound6);
+
+            isclick = false;
+        }
     }
 
 

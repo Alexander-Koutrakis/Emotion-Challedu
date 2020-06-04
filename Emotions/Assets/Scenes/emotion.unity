@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -307,6 +308,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -423,6 +425,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 72cf16fb75fccef45bf3ce524d3edf45, type: 3}
   sound4: {fileID: 8300000, guid: ac097e82a98024240ae98e97b79e4c8c, type: 3}
   sound5: {fileID: 8300000, guid: 0903b096ec7345440a23a62ef25f350b, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 51261311}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -584,6 +587,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -661,6 +665,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -738,6 +743,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -815,6 +821,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -958,6 +965,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1108,6 +1116,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1181,6 +1190,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1258,6 +1268,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1335,6 +1346,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1495,6 +1507,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.40000004, b: 0.1254902, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1586,6 +1599,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1802,6 +1816,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1903,6 +1918,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: e86ccfc50d040fd4286b07e0592684bb, type: 3}
   sound4: {fileID: 8300000, guid: b9b7eda8346334543a5624e82572d3a1, type: 3}
   sound5: {fileID: 8300000, guid: 796b84624817ab246967eefe3e496ed1, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 263796348}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -2108,6 +2124,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2242,6 +2259,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2409,6 +2427,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: c03f7b6552c412342a2655f90a43fd83, type: 3}
   sound4: {fileID: 8300000, guid: 99b9f07e73f9326458cc56099cec98c6, type: 3}
   sound5: {fileID: 8300000, guid: f767481e18f851b4a842fa9ad66c7488, type: 3}
+  sound6: {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
   emoji: {fileID: 344472349}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -2547,6 +2566,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2720,6 +2740,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2811,6 +2832,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2890,6 +2912,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3019,6 +3042,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3153,6 +3177,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3414,6 +3439,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5529412, g: 0.5529412, b: 0.5529412, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3598,11 +3624,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: -1
-  en:
+  eng:
   - SETTINGS
   - PLAY
-  - CHOOSE THE EMOTIONS THAT YOU WANT
-  - ASK THE OTHER PLAYERS TO SHOW YOU THE EMOTION CARD YOU CHOSE. DOES ANYBODY FOUND
+  - CHOOSE THE EMOTION THAT YOU WANT
+  - ASK THE OTHER PLAYERS TO SHOW YOU THE EMOTION CARD YOU CHOSE. DID ANYBODY FOUND
     IT?
   - NO
   - YES
@@ -3610,7 +3636,7 @@ MonoBehaviour:
   - NEXT
   - WHO TOLD THE MOST RELEVANT STORY?
   - NEXT
-  - GIVE THETABLET TO THE NEXT PLAYER
+  - GIVE THE TABLET TO THE NEXT PLAYER
   - NEXT
   - LANGUAGE
   - VOLUME
@@ -3635,7 +3661,7 @@ MonoBehaviour:
   - DISGUSTE
   - CHOOSE CHARACTER
   - BACK
-  gr:
+  gre:
   - "\u03A1\u03A5\u0398\u039C\u0399\u03A3\u0395\u0399\u03A3"
   - "\u03A0\u0391\u0399\u03A7\u039D\u0399\u0394\u0399"
   - "\u03A0\u0391\u03A4\u0391 \u03A3\u03A4\u0397\u039D \u039A\u0391\u03A1\u03A4\u0391
@@ -3643,7 +3669,8 @@ MonoBehaviour:
     \u03A0\u039F\u03A5 \u0398\u0395\u039B\u0395\u0399\u03A3"
   - "\u0396\u0397\u03A4\u0391 \u039D\u0391 \u03A3\u039F\u03A5 \u0394\u0395\u0399\u039E\u039F\u03A5\u039D
     \u03A4\u0397\u039D \u039A\u0391\u03A1\u03A4\u0391 \u03A3\u03A5\u039D\u0391\u0399\u03A3\u0398\u0397\u039C\u0391\u03A4\u039F\u03A3
-    \u03A0\u039F\u03A5 \u0394\u0399\u0391\u039B\u0395\u039E\u0395\u03A3. \u03A4\u0397\u0392\u03A1\u0397\u039A\u0395\u039A\u0391\u03A0\u039F\u0399\u039F\u03A3;"
+    \u03A0\u039F\u03A5 \u0394\u0399\u0391\u039B\u0395\u039E\u0395\u03A3. \u03A4\u0397
+    \u0392\u03A1\u0397\u039A\u0395 \u039A\u0391\u03A0\u039F\u0399\u039F\u03A3;"
   - "\u039F\u03A7\u0399"
   - "\u039D\u0391\u0399"
   - "\u0396\u0397\u03A4\u0391 \u03A3\u0395 \u039F\u03A3\u039F\u03A5\u03A3 \u0392\u03A1\u0397\u039A\u0391\u039D
@@ -3717,12 +3744,12 @@ MonoBehaviour:
   - DEZGUST
   - "ALEGE C\xC2\u021AI JUC\u0102TORI VOR JUCA"
   - "\xCENAPOI"
-  ital:
+  italian:
   - IMPOSTAZIONI
   - GIOCARE
-  - SCEGLI LE EMOZIONI CHE VUOI
-  - CHIEDI AGLI ALTRI GIOCATORI DI MOSTRARTI LA CARTA DELLE EMOZIONI CHE HANNO SCELTO.
-    QUALCUNO LO HA TROVATO?
+  - "SCEGLI L\u2019EMOZIONE CHE VUOI"
+  - "CHIEDI AI GIOCATORI DI MOSTARTI LA CARTA CON L\u2019 EMOZIONE CHE HANNO SCELTO.
+    QUALCUNO HA TROVATO QUELLA GIUSTA?"
   - NO
   - SI
   - CHIEDI A LORO DI RACCONTARE UNA STORIA
@@ -3740,18 +3767,18 @@ MonoBehaviour:
   - INDIETRO
   - INDIETRO
   - INDIETRO
-  - FELICE
-  - TRISTE
-  - ARRABBIATA
+  - "FELICITA\u2019"
+  - TRISTEZZA
+  - RABBIA
   - SORPRESA
-  - SPAVENTATA
-  - DISGUSTATO
-  - FELICE
-  - TRISTE
-  - ARRABBIATA
+  - PAURA
+  - DISGUSTO
+  - "FELICITA\u2019"
+  - TRISTEZZA
+  - RABBIA
   - SORPRESA
-  - SPAVENTATA
-  - DISGUSTATO
+  - PAURA
+  - DISGUSTO
   - SCEGLI QUANTI GIOCATORI GIOCHERANNO
   - INDIETRO
 --- !u!1 &537342552
@@ -3884,6 +3911,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: d85f4f8db7e6d244cbf958ea5d1ed719, type: 3}
   sound4: {fileID: 8300000, guid: 25801b6d8da92f04fb346fc931cf8ff1, type: 3}
   sound5: {fileID: 8300000, guid: 9513f80fca9d8324d9bf3cbff1f0fbc8, type: 3}
+  sound6: {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
   emoji: {fileID: 537342552}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -4020,6 +4048,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4169,6 +4198,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4246,6 +4276,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4351,6 +4382,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 5855be26366f92340a77816c91df0d67, type: 3}
   sound4: {fileID: 8300000, guid: 5855be26366f92340a77816c91df0d67, type: 3}
   sound5: {fileID: 8300000, guid: 5855be26366f92340a77816c91df0d67, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 573129467}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -4629,6 +4661,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4822,6 +4855,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5012,6 +5046,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 749ece65e8eda044cb07939de9d64d94, type: 3}
   sound4: {fileID: 8300000, guid: 8c9a0ca286082064d83cc71c7416ddf6, type: 3}
   sound5: {fileID: 8300000, guid: dc1a12c97934d1e4088fc6fcdbe3de21, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 623739578}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -5217,6 +5252,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5350,6 +5386,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5496,6 +5533,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5647,6 +5685,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: c8ff2d4a2ab82a34a9064acbba9bdcba, type: 3}
   sound4: {fileID: 8300000, guid: 1b888cbd88def0246a5cf6d3dafa7edc, type: 3}
   sound5: {fileID: 8300000, guid: c00cda40cd2b4ef4ca11e09393fa124d, type: 3}
+  sound6: {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
   emoji: {fileID: 702392677}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -5703,6 +5742,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6092,6 +6132,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.5411765, g: 0.5411765, b: 0.5411765, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6221,6 +6262,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6294,6 +6336,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6371,6 +6414,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6481,6 +6525,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6631,6 +6676,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6795,6 +6841,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.94117653, g: 0.37647063, b: 0.11764707, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6884,6 +6931,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6961,6 +7009,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7038,6 +7087,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7293,6 +7343,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7458,6 +7509,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7531,6 +7583,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7664,6 +7717,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7818,6 +7872,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7951,6 +8006,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8102,6 +8158,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 34b846fad98ba0c4db4175cbcab13e10, type: 3}
   sound4: {fileID: 8300000, guid: f160407ebe79f8643a7fd0eeb2fc95b4, type: 3}
   sound5: {fileID: 8300000, guid: c5b85bcab31332b4fb7a2920068fa98e, type: 3}
+  sound6: {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
   emoji: {fileID: 1343679851}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -8158,6 +8215,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8263,6 +8321,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 52f3ebe4c8a099444a4cac1f10e33a9d, type: 3}
   sound4: {fileID: 8300000, guid: 88e1f159aea9b4849a479a4567954ae9, type: 3}
   sound5: {fileID: 8300000, guid: 9d69e094b63f8d5428840d8f1a59f9dc, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 1386297461}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -8595,6 +8654,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8795,6 +8855,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8884,6 +8945,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8961,6 +9023,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9184,6 +9247,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 2023841b160b395499ffcd7f6f17cdc8, type: 3}
   sound4: {fileID: 8300000, guid: f97aeb770f5b0c14c92885422be10116, type: 3}
   sound5: {fileID: 8300000, guid: 57d0f0d47f3797c42a965967a872655c, type: 3}
+  sound6: {fileID: 0}
   emoji: {fileID: 1480135150}
   audioSrc: {fileID: 828456600}
   previous_obj:
@@ -9445,6 +9509,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9518,6 +9583,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9676,6 +9742,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9842,6 +9909,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -9988,6 +10056,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10199,6 +10268,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10328,6 +10398,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10408,6 +10479,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10485,6 +10557,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10678,6 +10751,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10812,6 +10886,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10901,6 +10976,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10979,6 +11055,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11129,6 +11206,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11549,6 +11627,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11626,6 +11705,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11703,6 +11783,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11864,6 +11945,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12011,6 +12093,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12106,6 +12189,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12265,6 +12349,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12355,6 +12440,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12510,6 +12596,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: 81cd3107aea669a439e0742f2fbe1871, type: 3}
   sound4: {fileID: 8300000, guid: 6000e98445d7e444aa732f350a4dc960, type: 3}
   sound5: {fileID: 8300000, guid: 5699b4400e2eb9e4692683e4fad40cff, type: 3}
+  sound6: {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
   emoji: {fileID: 2063801127}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -12639,6 +12726,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12827,6 +12915,7 @@ MonoBehaviour:
   sound3: {fileID: 8300000, guid: f913f9202f592a74ea6082d03f0210c6, type: 3}
   sound4: {fileID: 8300000, guid: 4fec5e333b982a24ebc3d6e2305e8089, type: 3}
   sound5: {fileID: 8300000, guid: bce311745d0ef804aa1d29156ab8ac7a, type: 3}
+  sound6: {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
   emoji: {fileID: 2080907331}
   audioSrc: {fileID: 828456600}
   previous_obj: []
@@ -12883,6 +12972,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -12960,6 +13050,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -13037,6 +13128,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
