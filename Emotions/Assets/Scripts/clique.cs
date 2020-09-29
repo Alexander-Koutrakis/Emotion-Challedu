@@ -61,9 +61,11 @@ public class clique : MonoBehaviour
         if (choose_langages.CurrentLang == "gr" || choose_langages.CurrentLang == "en")
         {
             AudioClip[] soundArray = { sound1, sound2, sound3, sound4, sound5, sound6 };
-            int rand = Random.Range(0, 7);
+            int rand = Random.Range(0, soundArray.Length);
             if (audioSrc.clip != null)
-            audioSrc.PlayOneShot(soundArray[rand]);
+            {
+                    audioSrc.PlayOneShot(soundArray[rand]);
+            }
             isclick = false;
         }
         else {

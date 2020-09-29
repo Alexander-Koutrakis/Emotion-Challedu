@@ -30,7 +30,7 @@ public class choose_langages : MonoBehaviour
         }
         if (langage == "it")
         {
-            reader.GetComponent<read_text>().read(langage, reader.GetComponent<save_var>().italian);
+            reader.GetComponent<read_text>().read(langage, reader.GetComponent<save_var>().italian2);
             CurrentLang = "it";
         }
 

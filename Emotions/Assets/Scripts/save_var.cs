@@ -137,7 +137,7 @@ public class save_var : MonoBehaviour
         "LE LINGUE",
         "VOLUME",
         "LIVELLO DI DIFFICOLTÀ",
-        "FACILE",
+        "FELICITA’",
         "DIFFICILE",
         "INDIETRO",
         "INDIETRO",
@@ -157,6 +157,46 @@ public class save_var : MonoBehaviour
         "DISGUSTO",
         "SCEGLI QUANTI GIOCATORI GIOCHERANNO",//not sure
         "INDIETRO"};//35
+
+
+    public string[] italian2 =
+   {
+        "IMPOSTAZIONI",//1
+        "GIOCARE",//
+        "SCEGLI L’EMOZIONE CHE VUOI",
+        "CHIEDI AI GIOCATORI DI MOSTARTI LA CARTA CON L’ EMOZIONE CHE HANNO SCELTO. QUALCUNO HA TROVATO QUELLA GIUSTA?",
+        "NO",
+        "SI",
+        "CHIEDI A LORO DI RACCONTARE UNA STORIA",
+        "IL PROSSIMO",
+        "CHI DICE LA STORIA PIÙ RILEVANTE?",
+        "IL PROSSIMO",
+        "DARE IL TABLET AL PROSSIMO GIOCATORE",
+        "IL PROSSIMO",
+        "LE LINGUE",
+        "VOLUME",
+        "LIVELLO DI DIFFICOLTÀ",
+        "FELICITA’",
+        "DIFFICILE",
+        "INDIETRO",
+        "INDIETRO",
+        "INDIETRO",
+        "INDIETRO",
+        "FELICITA’",
+        "TRISTEZZA",
+        "RABBIA",
+        "SORPRESA",
+        "PAURA",
+        "DISGUSTO",
+        "FELICITA’",
+        "TRISTEZZA",
+        "RABBIA",
+        "SORPRESA",
+        "PAURA",
+        "DISGUSTO",
+        "SCEGLI QUANTI GIOCATORI GIOCHERANNO",//not sure
+        "INDIETRO"};//35
+
 }
 
 
