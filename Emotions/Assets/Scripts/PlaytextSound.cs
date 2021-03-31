@@ -64,8 +64,5 @@ public class PlaytextSound : MonoBehaviour
         }
     }
 
-    private void Test()
-    {
-        StartCoroutine(co);
-    }
+    
 }

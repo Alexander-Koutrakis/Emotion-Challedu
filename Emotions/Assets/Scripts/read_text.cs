@@ -7,6 +7,12 @@ public class read_text : MonoBehaviour
 {
     public GameObject[] textes;
     public GameObject test;
+    public static read_text Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
     // Start is called before the first frame update
     public void read(string fileName, string[]langage)
     {
@@ -32,6 +38,6 @@ public class read_text : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+
     
 }

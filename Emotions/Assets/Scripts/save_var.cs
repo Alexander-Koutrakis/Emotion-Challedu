@@ -6,6 +6,13 @@ public class save_var : MonoBehaviour
 {
    
     public int difficulty;
+    public static save_var Instance;
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     public string[] eng = {"SETTINGS",
         "PLAY",
@@ -80,7 +87,8 @@ public class save_var : MonoBehaviour
         "ΦΟΒΟΣ",
         "ΑΗΔΙΑ",
         "ΔΙΑΛΕΞΕ ΧΑΡΑΚΤΗΡΑ",
-        "ΠΙΣΩ" };
+        "ΠΙΣΩ",
+        "ΠΛΗΡΟΦΟΡΙΕΣ"};
 
     public string[] rom =
     {   "SETARI",
@@ -117,7 +125,7 @@ public class save_var : MonoBehaviour
         "FRICĂ",
         "DEZGUST",
         "ALEGE CÂȚI JUCĂTORI VOR JUCA",
-        "ÎNAPOI"
+        "ÎNAPOI","INFORMATII"
     };
 
    public string[] italian=
@@ -169,14 +177,14 @@ public class save_var : MonoBehaviour
         "SI",
         "CHIEDI A LORO DI RACCONTARE UNA STORIA",
         "IL PROSSIMO",
-        "CHI DICE LA STORIA PIÙ RILEVANTE?",
+        "CHI DICE LA STORIA PIÙ RILEVANTE?",// <---- this text is removed
         "IL PROSSIMO",
         "DARE IL TABLET AL PROSSIMO GIOCATORE",
         "IL PROSSIMO",
         "LE LINGUE",
         "VOLUME",
         "LIVELLO DI DIFFICOLTÀ",
-        "FELICITA’",
+        "FACILE",
         "DIFFICILE",
         "INDIETRO",
         "INDIETRO",
@@ -194,7 +202,7 @@ public class save_var : MonoBehaviour
         "SORPRESA",
         "PAURA",
         "DISGUSTO",
-        "SCEGLI QUANTI GIOCATORI GIOCHERANNO",//not sure
+        "SCEGLI QUANTI GIOCATORI GIOCHERANNO",// changed to Scegli il personaggio
         "INDIETRO"};//35
 
 }

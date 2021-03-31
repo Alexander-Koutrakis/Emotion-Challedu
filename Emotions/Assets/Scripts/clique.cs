@@ -12,17 +12,30 @@ public class clique : MonoBehaviour
     public AudioClip sound4;
     public AudioClip sound5;
     public AudioClip sound6;
-    private AudioClip[] soundArray;
     public GameObject emoji;
     
     public AudioSource audioSrc;
-    // Start is called before the first frame update
-
+    [SerializeField]
+    private AudioClip[] greeckSounds;
+    [SerializeField]
+    private AudioClip[] engSounds;
+    [SerializeField]
+    private AudioClip[] itSounds;
+    [SerializeField]
+    private AudioClip[] romSounds;
+    private Dictionary<string, AudioClip[]> audios = new Dictionary<string, AudioClip[]>();
 
 
     public GameObject[] previous_obj;
     public GameObject[] next_obj;
 
+    private void Awake()
+    {
+        audios.Add("gr", greeckSounds);
+        audios.Add("en", engSounds);
+        audios.Add("rom", romSounds);
+        audios.Add("it", itSounds);
+    }
     public void on_click()
     {
         foreach(GameObject obj in previous_obj)
@@ -54,6 +67,17 @@ public class clique : MonoBehaviour
         isclick = true;
                
     }
+
+    private AudioClip RandomClip(string language)
+    {
+        int x = Random.Range(0, audios[language].Length);
+        return audios[language][x];
+    }
+    public void PlayRandom()
+    {
+
+    }
+
 
     public void PlayRandomSound()
     {
