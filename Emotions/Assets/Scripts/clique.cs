@@ -16,7 +16,7 @@ public class clique : MonoBehaviour
     
     public AudioSource audioSrc;
     [SerializeField]
-    private AudioClip[] greeckSounds;
+    private AudioClip[] greekSounds;
     [SerializeField]
     private AudioClip[] engSounds;
     [SerializeField]
@@ -31,10 +31,11 @@ public class clique : MonoBehaviour
 
     private void Awake()
     {
-        audios.Add("gr", greeckSounds);
+        audios.Add("gr", greekSounds);
         audios.Add("en", engSounds);
         audios.Add("rom", romSounds);
         audios.Add("it", itSounds);
+        Debug.Log(audios["en"].Length);
     }
     public void on_click()
     {
@@ -50,10 +51,10 @@ public class clique : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayRandomSound();
+        PlayRandom();
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         if (isclick == true)
@@ -70,12 +71,17 @@ public class clique : MonoBehaviour
 
     private AudioClip RandomClip(string language)
     {
+        Debug.Log(language);
         int x = Random.Range(0, audios[language].Length);
+        Debug.Log(audios[language].Length);
+        Debug.Log(x);
         return audios[language][x];
     }
     public void PlayRandom()
     {
 
+        audioSrc.PlayOneShot(RandomClip(choose_langages.CurrentLang));
+        isclick = false;
     }
 
 

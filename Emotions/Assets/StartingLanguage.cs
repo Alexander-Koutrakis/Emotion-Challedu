@@ -25,6 +25,7 @@ public class StartingLanguage : MonoBehaviour
             choose_langages.CurrentLang = "gr";
             read_text.Instance.read(choose_langages.CurrentLang, save_var.Instance.gre);
         }
-        
+
+        Debug.Log(choose_langages.CurrentLang);
     }
 }

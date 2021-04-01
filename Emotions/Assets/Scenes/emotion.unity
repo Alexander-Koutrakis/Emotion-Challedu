@@ -256,6 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -363,6 +364,7 @@ GameObject:
   - component: {fileID: 51261316}
   - component: {fileID: 51261315}
   - component: {fileID: 51261313}
+  - component: {fileID: 51261314}
   m_Layer: 0
   m_Name: Emoji_surprised
   m_TagString: Untagged
@@ -411,7 +413,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 35.43, y: 35.43}
   m_EdgeRadius: 0
---- !u!114 &51261315
+--- !u!114 &51261314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -419,6 +421,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51261311}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 2063801127}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
+--- !u!114 &51261315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51261311}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -433,6 +450,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 51261311}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -534,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422f99ba9fa30724b89ed1d54dc4c5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioclipEN: {fileID: 8300000, guid: cbf27d29a0dd9904784d1680b83e7e6b, type: 3}
+  audioclipEN: {fileID: 8300000, guid: eb6b92bf699172a4f85e5a03095fdaa8, type: 3}
   audioclipGR: {fileID: 8300000, guid: a07459eb1d96b7d41b2b24c9d7ca330f, type: 3}
   audioclipROM: {fileID: 8300000, guid: 7250c351c0b4cb34786df52e68c5ce6c, type: 3}
   audioclipIT: {fileID: 8300000, guid: 008302b2bba638b438c6c15719b3ff33, type: 3}
@@ -1072,6 +1093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1457,6 +1479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1715,6 +1738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1876,6 +1900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2040,6 +2065,7 @@ GameObject:
   - component: {fileID: 263796352}
   - component: {fileID: 263796351}
   - component: {fileID: 263796350}
+  - component: {fileID: 263796354}
   m_Layer: 0
   m_Name: Emoji_happy
   m_TagString: Untagged
@@ -2095,7 +2121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263796348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -2110,6 +2136,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 263796348}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -2262,6 +2292,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &263796354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263796348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 2080907331}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
 --- !u!1 &288539490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,6 +2440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2497,7 +2543,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 2
+  serializedVersion: 3
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
@@ -2519,7 +2565,7 @@ LightingSettings:
   m_MixedBakeMode: 2
   m_LightmapsBakeMode: 1
   m_FilterMode: 1
-  m_LightmapParameters: {fileID: 0}
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
   m_ExportTrainingData: 0
   m_TrainingDataDestination: TrainingData
   m_RealtimeResolution: 2
@@ -2536,7 +2582,7 @@ LightingSettings:
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
   m_PVRBounces: 2
-  m_PVRRussianRouletteStartBounce: 2
+  m_PVRMinBounces: 1
   m_PVREnvironmentMIS: 0
   m_PVRFilteringMode: 2
   m_PVRDenoiserTypeDirect: 0
@@ -2686,6 +2732,21 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
   emoji: {fileID: 344472349}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: ebf5d91955bc6cb4e89e0546354ecc42, type: 3}
+  - {fileID: 8300000, guid: bc15f56fea1118a4e821e411a6111c4f, type: 3}
+  - {fileID: 8300000, guid: 6833e2b4f173c52408239bedb6cab8eb, type: 3}
+  - {fileID: 8300000, guid: e697fd715e047cc489f1969c2384ecad, type: 3}
+  - {fileID: 8300000, guid: dc026d85c13bc3b45ae3df1ede1b42b0, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: 5c5927950b4aab34cb1d44320b386841, type: 3}
+  - {fileID: 8300000, guid: 4ac456bdde23a874cb9c4afefc75cc29, type: 3}
+  - {fileID: 8300000, guid: 84689bade2a013a4288bf780f6536e76, type: 3}
+  - {fileID: 8300000, guid: ad8a463474227a547b36a76e2b90abfc, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &344472354
@@ -2769,6 +2830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2946,6 +3008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3401,7 +3464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422f99ba9fa30724b89ed1d54dc4c5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioclipEN: {fileID: 8300000, guid: 6bab17e23de2f004d91fea93011d4d0d, type: 3}
+  audioclipEN: {fileID: 8300000, guid: 3f505bb1fce41244aaa8c7cfe3c5f5d9, type: 3}
   audioclipGR: {fileID: 8300000, guid: 8b4cd2107bcf88648b63daadf0e5e2ab, type: 3}
   audioclipROM: {fileID: 8300000, guid: ec03d2b93cc7d37489ec51ccb5113527, type: 3}
   audioclipIT: {fileID: 0}
@@ -3541,6 +3604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3870,6 +3934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -4136,7 +4201,7 @@ MonoBehaviour:
   - YES
   - ASK THEM TO TELL A STORY ABOUT IT
   - NEXT
-  - WHO TOLD THE MOST RELEVANT STORY?
+  - WHO TOLD THE MOST INTRESTING STORY?
   - NEXT
   - GIVE THE TABLET TO THE NEXT PLAYER
   - NEXT
@@ -4406,7 +4471,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b44ae8ea2519209429aa985afaca148b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29690c87e2a661e4e9d7292be34bfa0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4434,7 +4499,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 35.43, y: 35.43}
+    oldSize: {x: 8.51, y: 8.51}
     newSize: {x: 35.43, y: 35.43}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4465,6 +4530,20 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
   emoji: {fileID: 537342552}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: 4a771ff5976e1214fb08cd48dc250dbe, type: 3}
+  - {fileID: 8300000, guid: b1ecd4c3e8a6683478130fd52d007425, type: 3}
+  - {fileID: 8300000, guid: 6fa203b14aea64a47ba825ec55803496, type: 3}
+  - {fileID: 8300000, guid: 45f9b81b5e5e8314d814fc2b8f7472ed, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: 72f32eccf2f14fb4d9c5f1086d043695, type: 3}
+  - {fileID: 8300000, guid: 729d2e3a3caa5bc48b5a06e2e0d377ea, type: 3}
+  - {fileID: 8300000, guid: b2686fb4b02070141b267627f757036d, type: 3}
+  - {fileID: 8300000, guid: 45e93c6dc6076074b8e538cc78bbc86c, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &537342557
@@ -4535,6 +4614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -4885,6 +4965,7 @@ GameObject:
   - component: {fileID: 573129471}
   - component: {fileID: 573129470}
   - component: {fileID: 573129469}
+  - component: {fileID: 573129473}
   m_Layer: 0
   m_Name: Emoji_discusted
   m_TagString: Untagged
@@ -4940,7 +5021,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573129467}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -4955,6 +5036,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 573129467}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -5107,6 +5192,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &573129473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573129467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 1343679851}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
 --- !u!1 &592823222
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,6 +5277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -5351,6 +5452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -5536,7 +5638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422f99ba9fa30724b89ed1d54dc4c5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioclipEN: {fileID: 8300000, guid: 6fd90c29b556d3d478fd782dc534277e, type: 3}
+  audioclipEN: {fileID: 8300000, guid: 608f4c56fe3b1c04a80272acde26d0d2, type: 3}
   audioclipGR: {fileID: 8300000, guid: 8a3442830ce570f4fb5f39df55eba349, type: 3}
   audioclipROM: {fileID: 8300000, guid: 41e3739685d12074e843695de808d29a, type: 3}
   audioclipIT: {fileID: 8300000, guid: 65048ec29a1669540a08866573e000e4, type: 3}
@@ -5556,6 +5658,7 @@ GameObject:
   - component: {fileID: 623739582}
   - component: {fileID: 623739581}
   - component: {fileID: 623739580}
+  - component: {fileID: 623739584}
   m_Layer: 0
   m_Name: Emoji_scared
   m_TagString: Untagged
@@ -5611,7 +5714,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623739578}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -5626,6 +5729,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 623739578}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -5778,6 +5885,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &623739584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623739578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 344472349}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
 --- !u!1 &637119777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,6 +6032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -6059,6 +6182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -6273,6 +6397,20 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
   emoji: {fileID: 702392677}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: 333ac4e51a98e8f4eb99e5a3d019ffa5, type: 3}
+  - {fileID: 8300000, guid: e73987dd02915d04099088aa0f460930, type: 3}
+  - {fileID: 8300000, guid: f66b79e64c53c7e49bbdb502bb169011, type: 3}
+  - {fileID: 8300000, guid: c487d69e37845b64b8edefda9fc7eb08, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: f93529e2f179a264d8a6cfe79363eda5, type: 3}
+  - {fileID: 8300000, guid: 29dd39645625e0d49bbeae3999429abe, type: 3}
+  - {fileID: 8300000, guid: 55c1f04bf83e46f46a885c184e603ca7, type: 3}
+  - {fileID: 8300000, guid: 33641f8e067333440ac971cdac16f489, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &702392682
@@ -6666,6 +6804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -6810,6 +6949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -7272,6 +7412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -7428,6 +7569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -7823,7 +7965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422f99ba9fa30724b89ed1d54dc4c5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioclipEN: {fileID: 8300000, guid: 4efd0b1663fe495438f0a026662ff0a2, type: 3}
+  audioclipEN: {fileID: 8300000, guid: 087d03167c1cad343a0065a9c86d421a, type: 3}
   audioclipGR: {fileID: 8300000, guid: afdb4f1fb9f98c5428474d74aa5395f6, type: 3}
   audioclipROM: {fileID: 8300000, guid: f805303063e715e4f824f5c456af08d5, type: 3}
   audioclipIT: {fileID: 8300000, guid: 0d97ac0dc6be2004f94b69756dd6620d, type: 3}
@@ -7925,6 +8067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -8117,6 +8260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -8420,6 +8564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -8792,6 +8937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -9006,6 +9152,20 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
   emoji: {fileID: 1343679851}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: 3db6f70f44a47a647a6ff60cd9819fbe, type: 3}
+  - {fileID: 8300000, guid: 3427a955018dbfe45953feabd4ceee6f, type: 3}
+  - {fileID: 8300000, guid: f5b789d577bc4f3439a057386dfb15f6, type: 3}
+  - {fileID: 8300000, guid: f63352c2a83e4c24e9ad98afef3c78d6, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: f00e046bf22f94f4889ca1839fa57024, type: 3}
+  - {fileID: 8300000, guid: 8ae344b7dcb90c547862a117e267ed69, type: 3}
+  - {fileID: 8300000, guid: 27c0cf0e722d0474b9376117b2860ce2, type: 3}
+  - {fileID: 8300000, guid: 704d805c0f49b5d4abaa4f785279ae38, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &1343679856
@@ -9113,6 +9273,7 @@ GameObject:
   - component: {fileID: 1386297465}
   - component: {fileID: 1386297464}
   - component: {fileID: 1386297463}
+  - component: {fileID: 1386297467}
   m_Layer: 0
   m_Name: Emoji_sad
   m_TagString: Untagged
@@ -9168,7 +9329,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386297461}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -9183,6 +9344,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 1386297461}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -9335,6 +9500,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1386297467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386297461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 537342552}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
 --- !u!1 &1399901561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,6 +9777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10066,6 +10247,7 @@ GameObject:
   - component: {fileID: 1480135154}
   - component: {fileID: 1480135153}
   - component: {fileID: 1480135152}
+  - component: {fileID: 1480135156}
   m_Layer: 0
   m_Name: Emoji_angry
   m_TagString: Untagged
@@ -10121,7 +10303,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480135150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 598cecd39769a4d46b37ee7bd9a623cd, type: 3}
   m_Name: 
@@ -10136,6 +10318,10 @@ MonoBehaviour:
   sound6: {fileID: 0}
   emoji: {fileID: 1480135150}
   audioSrc: {fileID: 828456600}
+  greekSounds: []
+  engSounds: []
+  itSounds: []
+  romSounds: []
   previous_obj:
   - {fileID: 1139877991}
   next_obj:
@@ -10288,6 +10474,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1480135156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480135150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f1b585e7e536f4c9846b656c85edbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextPanel: {fileID: 702392677}
+  NextQuestion: {fileID: 610479848}
+  CurrentPanel: {fileID: 1139877991}
 --- !u!1 &1510478096
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,6 +10542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10566,6 +10768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -10748,6 +10951,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1553283720
 Canvas:
   m_ObjectHideFlags: 0
@@ -10859,6 +11063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -11008,6 +11213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -11223,6 +11429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -11412,6 +11619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -11993,6 +12201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -12404,6 +12613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -12529,7 +12739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422f99ba9fa30724b89ed1d54dc4c5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioclipEN: {fileID: 8300000, guid: c3690d9ac26134840b81c0955d188fe1, type: 3}
+  audioclipEN: {fileID: 8300000, guid: ef0add16f5bdfb345bd2e3af6ff5143e, type: 3}
   audioclipGR: {fileID: 8300000, guid: 19949bcf973427e4bb8f724a709f1715, type: 3}
   audioclipROM: {fileID: 8300000, guid: 6fdfbc9bdbd82c644b99c5d81de06a31, type: 3}
   audioclipIT: {fileID: 8300000, guid: 20cdc285dd515b34aa51ac0f44e8f708, type: 3}
@@ -12594,6 +12804,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1819685268
 Canvas:
   m_ObjectHideFlags: 0
@@ -13172,6 +13383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -13334,6 +13546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -13662,6 +13875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -13984,6 +14198,21 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
   emoji: {fileID: 2063801127}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: 44234a57443b49149b4aa78922d12400, type: 3}
+  - {fileID: 8300000, guid: b1c3e2d4e8e2b824d8bfe8ce46863dd6, type: 3}
+  - {fileID: 8300000, guid: fca6583ee0177ea4096abda306e8f6c1, type: 3}
+  - {fileID: 8300000, guid: 8076c1787601f154d8cb9c88ed915ba0, type: 3}
+  - {fileID: 8300000, guid: ac2e4ab4f9d86994bb7e6d1346e7a153, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: 6137d20726f8e104eae7248790c98018, type: 3}
+  - {fileID: 8300000, guid: f48d76191243ec54680cb191917bc0d2, type: 3}
+  - {fileID: 8300000, guid: 4e52b7e7d0e0f7f41ab29a78da3c3f2f, type: 3}
+  - {fileID: 8300000, guid: a746707d6f622c8449a6bf2114a5e843, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &2063801132
@@ -14069,6 +14298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -14320,6 +14550,20 @@ MonoBehaviour:
   sound6: {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
   emoji: {fileID: 2080907331}
   audioSrc: {fileID: 828456600}
+  greekSounds:
+  - {fileID: 8300000, guid: 9459f95ea2ec22a4f8b3a55be3b6acdf, type: 3}
+  - {fileID: 8300000, guid: 283f62be8590ece48a9d8a3b624b95f3, type: 3}
+  - {fileID: 8300000, guid: b4447ddbb9ec3ac4bae8dc790f1a46f5, type: 3}
+  - {fileID: 8300000, guid: a60d8ab9fed09ec40a95807356394680, type: 3}
+  engSounds:
+  - {fileID: 8300000, guid: 56b737dd1694c1c4794280ab98d91386, type: 3}
+  - {fileID: 8300000, guid: f599e284a27eefe4f800a30baa6a2f5c, type: 3}
+  - {fileID: 8300000, guid: d0e722fcce5d84e48b7a2a7659e4f9d9, type: 3}
+  - {fileID: 8300000, guid: 80ac44f9267288749b8393dc885ed76d, type: 3}
+  itSounds:
+  - {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
+  romSounds:
+  - {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &2080907336
