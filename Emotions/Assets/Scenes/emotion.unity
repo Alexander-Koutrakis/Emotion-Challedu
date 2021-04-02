@@ -4471,7 +4471,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 29690c87e2a661e4e9d7292be34bfa0b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c272049c583c5564893c95a51084b4a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4499,7 +4499,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.51, y: 8.51}
+    oldSize: {x: 34.133335, y: 34.133335}
     newSize: {x: 35.43, y: 35.43}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6063,8 +6063,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 702392681}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6980,8 +6980,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080907335}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8291,8 +8291,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 537342556}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8595,8 +8595,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1343679855}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8968,8 +8968,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2063801131}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10573,8 +10573,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 344472353}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayRandomSound
+        m_TargetAssemblyTypeName: clique, Assembly-CSharp
+        m_MethodName: PlayRandom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
