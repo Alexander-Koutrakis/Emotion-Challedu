@@ -2746,7 +2746,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: f467e86f970034e4f9358d987675dab3, type: 3}
+  - {fileID: 8300000, guid: 74c80a26a8ebb4449ac7688516527569, type: 3}
+  - {fileID: 8300000, guid: 79e120d746abc604d84a25ca42982e9f, type: 3}
+  - {fileID: 8300000, guid: 76f7ecdd615681546be83b17e15f786e, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &344472354
@@ -4543,7 +4545,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: 1f2d1d563bceaa448a89a6fced078026, type: 3}
+  - {fileID: 8300000, guid: 6bc798ae86cc41e4a81f86f8a048837d, type: 3}
+  - {fileID: 8300000, guid: 96c7048117bfbe9449e11e573d3bf6b2, type: 3}
+  - {fileID: 8300000, guid: a74354a33d53b584ab3769321ff5da3f, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &537342557
@@ -6410,7 +6414,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: 6464313dc19c47948af2a24757677273, type: 3}
+  - {fileID: 8300000, guid: 6ac9efc0bdcba514a93d98e0595a2f47, type: 3}
+  - {fileID: 8300000, guid: 669e8b4b3b3c71f4295c4e9104240226, type: 3}
+  - {fileID: 8300000, guid: f970ef0f4a2d0444887e9decbaebe0a6, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &702392682
@@ -8469,10 +8475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcb9c79438a70874da1ad56293a9a64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  engSprite: {fileID: 21300000, guid: 3b9e076ea882f024cacbe3a6951f1fe3, type: 3}
-  itSprite: {fileID: 21300000, guid: 891853ff4dea50b48bbbaa90e7e9c068, type: 3}
-  romSprite: {fileID: 21300000, guid: 017ff44ce0347b14abf2ff117dd58f87, type: 3}
-  grSprite: {fileID: 21300000, guid: 49b1daac562728340a49c600b8b942be, type: 3}
+  engSprite: {fileID: 21300000, guid: b34f39e4a5f2b8742ad94dcad26d0331, type: 3}
+  itSprite: {fileID: 21300000, guid: 12223caeb93653440b44212362539fa8, type: 3}
+  romSprite: {fileID: 21300000, guid: 8657eac3b3b3a6c4a8acc43c8f3dcffb, type: 3}
+  grSprite: {fileID: 21300000, guid: df0b82db79c68984f8c313ed5e3030b3, type: 3}
 --- !u!114 &1258876423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9165,7 +9171,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: b237b1b8124cdad4e90d8d0616a04925, type: 3}
+  - {fileID: 8300000, guid: b284af97ce3216e47a97baf975009a0a, type: 3}
+  - {fileID: 8300000, guid: 4e67589243955d9449e986c72d672217, type: 3}
+  - {fileID: 8300000, guid: e6025ea18379ba242a82e5fa7e3bf629, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &1343679856
@@ -12446,7 +12454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 638db25b018ef1a4ab41c64a676fbbad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d05ab689c06c456439a21c539e8cebda, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14212,7 +14220,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: 6b8b6ac15989e6542ae13bf909f2476f, type: 3}
+  - {fileID: 8300000, guid: 4c6637d9012022a4e8b306d00ab436ec, type: 3}
+  - {fileID: 8300000, guid: 2987dec1fb6c5c645991ee3fea9e76d1, type: 3}
+  - {fileID: 8300000, guid: 85286df49545d3c48a5e080d415d9ae5, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &2063801132
@@ -14563,7 +14573,9 @@ MonoBehaviour:
   itSounds:
   - {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
   romSounds:
-  - {fileID: 8300000, guid: 8ef44f1e52c09a641bfab2cd8ae520fb, type: 3}
+  - {fileID: 8300000, guid: aaf977a5ef4134f46b661fd6e4ceaa61, type: 3}
+  - {fileID: 8300000, guid: 27a71d6e34bdd554ca97997e6d221026, type: 3}
+  - {fileID: 8300000, guid: d0638af9ee48a074a9dec8b7050bac8a, type: 3}
   previous_obj: []
   next_obj: []
 --- !u!114 &2080907336
